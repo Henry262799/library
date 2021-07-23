@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Library</title>
+        <link rel="stylesheet" href="style.css"> 
+
+    </head>
+        <header>
+            <div class="header">
+                <h1>
+                    Library
+                </h1>
+                <button class="log-in"> Log In</button>
+            </div>
+        </header>
+
+        <div class="add-book">
+            <button class="library-button">Add Book</button>
+        </div>
+        
+        <!-- Book Modal Section-->
+        <div class="popup-form">
+            <div class="popup-content">
+                <p id="modal-heading">Add Book</p>
+                <form>
+                    <input class="book-input" id="titleInput" type="text" placeholder="title">
+                    <input class="book-input" id="author" type="text" placeholder="author">
+                    <input class="book-input" id="number" type="number" placeholder="pages">
+                    <div class="readStatus">
+                        <div>
+                        <p>Read?</p>
+                        </div>
+                        <div>
+                        <input  type="radio" name="isRead" id="yes-button">
+                        <label for="isRead" >Yes</label>
+                        <input type="radio" name="isRead">
+                        <label for="isRead">No</label>
+                        </div>
+                    </div>
+                    <div class="submit-holder">
+                        <input type="submit" class="submit" value="Add">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="main-content">
+
+        </div>
+
+
+        <script src="main.js"></script>
+    <body>
+
+    </body>
+    </html>
